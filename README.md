@@ -1,6 +1,6 @@
 # Reproduction of dotnet runtime issue
 
-This is a repo to reproduct issue [31862](https://github.com/dotnet/runtime/issues/31862) in the dotnet/runtime repo. 
+This is a repo to reproduce issue [31862](https://github.com/dotnet/runtime/issues/31862) in the dotnet/runtime repo. 
 
 ## Reproduction environment
 
