@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracing", "Tracing\Tracing.csproj", "{D96C61D6-55B8-4E34-88B2-32AA580CCDE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Child", "Child\Child.csproj", "{03D0D35A-5B1D-4CAA-937D-146B01FFF3D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".repo", ".repo", "{C50CEBF3-7A38-41FA-B653-9CE312FD4DEB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D96C61D6-55B8-4E34-88B2-32AA580CCDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96C61D6-55B8-4E34-88B2-32AA580CCDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96C61D6-55B8-4E34-88B2-32AA580CCDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96C61D6-55B8-4E34-88B2-32AA580CCDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D0D35A-5B1D-4CAA-937D-146B01FFF3D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D0D35A-5B1D-4CAA-937D-146B01FFF3D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D0D35A-5B1D-4CAA-937D-146B01FFF3D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D0D35A-5B1D-4CAA-937D-146B01FFF3D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2503931-8AFA-4493-AAEA-84D12AD056D0}
+	EndGlobalSection
+EndGlobal
