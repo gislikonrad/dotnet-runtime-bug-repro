@@ -2,14 +2,18 @@
 
 This is a repo to reproduce issue [31862](https://github.com/dotnet/runtime/issues/31862) in the dotnet/runtime repo. 
 
-## Reproduction environment
+## Reproduction environments
 
-If this matters at all
+### Microsoft Windows 10 Enterprise
+* Visual Studio 2019 Professional 16.4.4
+* Both projects set to run directly (not iisexpress)
+* Both projects set as startup projects
+* Run debugger
+* Request GET - http://localhost:5000
+* View both consoles and see the discrepency
 
-* Microsoft Windows 10 Enterprise
-* Visual Studio 2019 Professional 16.4.4 debugger
-* Both projects run simultaniously
-* Both projects run directly (not iisexpress)
+### Mac OsX Catalina
+* ´dotnet run´ both projects seperately
 * Request GET - http://localhost:5000
 * View both consoles and see the discrepency
 
