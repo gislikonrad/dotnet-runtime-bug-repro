@@ -7,7 +7,7 @@ This is a repo to reproduce issue [31862](https://github.com/dotnet/runtime/issu
 If this matters at all
 
 * Microsoft Windows 10 Enterprise
-* Visual Studio 2019 16.4.4 debugger
+* Visual Studio 2019 Professional 16.4.4 debugger
 * Both projects run simultaniously
 * Both projects run directly (not iisexpress)
 * Request GET - http://localhost:5000
