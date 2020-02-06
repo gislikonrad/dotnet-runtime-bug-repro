@@ -16,7 +16,7 @@ If this matters at all
 ### Example
 (line breaks added for readability)
 
-### From parent log
+#### From parent log
 
 RequestPath:/ 
 RequestId:0HLTB4M854SQ4:00000002, 
@@ -24,7 +24,7 @@ SpanId:1ba1509359745746,
 TraceId:3f2eb7591880f8479ace2a3dd3e8d2f3, 
 ParentId:0000000000000000
 
-### From child log
+#### From child log
 
 RequestPath:/ 
 RequestId:0HLTB4M84SAFF:00000002, 
